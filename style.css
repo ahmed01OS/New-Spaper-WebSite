@@ -1,0 +1,408 @@
+    body {
+        width: 100vw;
+        height: 300vh;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .onepage {
+        font-size: 400;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .blackLayer {
+        width: 100vw;
+        background-image: url('backg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 60px;
+        color: rgb(255, 255, 255);
+        font-weight: 550;
+        border-bottom: 1px solid rgba(9, 51, 9, 0.381);
+        ;
+    }
+    
+    li {
+        display: flex;
+        margin: 0px 18px;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+        color: rgb(45, 45, 45);
+        cursor: pointer;
+    }
+    
+    ul {
+        display: flex;
+        align-items: center;
+        line-height: 1.5;
+    }
+    
+    .webtitle {
+        margin: 0px 18px;
+        font-weight: 500;
+        font-size: 2rem;
+        color: rgb(45, 45, 45);
+        cursor: pointer;
+    }
+    
+    .activechild {
+        display: flex;
+        height: 2.5rem;
+        width: 4rem;
+        align-items: center;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.776);
+        padding-left: 13px;
+        border: 1px solid green;
+    }
+    
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.58);
+        padding: 0px;
+        margin: 0px;
+        backdrop-filter: blur(2px);
+    }
+    
+    #navicon {
+        color: rgb(255, 255, 255);
+        color: rgb(45, 45, 45);
+        font-weight: 600;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    
+    .slogan {
+        display: flex;
+        align-items: flex-start;
+        text-align: center;
+        position: relative;
+        top: 27%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    
+    .slogan h1 {
+        font-size: 40px;
+        width: 440px;
+        border-radius: 29px 0px 29px 0px;
+        backdrop-filter: blur(2px);
+        margin-bottom: 30px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-left: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        color: rgb(45, 45, 45);
+        border: 1px solid rgb(45, 45, 45);
+        border: 1px solid green;
+    }
+    
+    .slogan button {
+        width: 8rem;
+        font-size: 1rem;
+        font-weight: 400;
+        height: 3rem;
+        border: 1px solid green;
+        border-radius: 10px 5px 10px 5px;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(45, 45, 45);
+        background-color: rgba(53, 53, 53, 0.632);
+        backdrop-filter: blur(4px);
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 40px;
+        background-color: rgba(255, 255, 255, 0.369);
+        cursor: pointer;
+    }
+    
+    .slogan button:hover {
+        background-color: rgba(247, 241, 241, 0.757);
+    }
+    
+    thead {
+        width: 500px;
+        backdrop-filter: blur(2px);
+        height: 25px;
+        margin-right: 19px;
+        color: rgb(255, 255, 255);
+        background-color: rgba(36, 35, 35, 0.21);
+        background-color: rgba(245, 245, 245, 0.21);
+        background-color: rgba(39, 37, 37, 0.21);
+        background-color: rgba(9, 51, 9, 0.057);
+    }
+    
+    tbody {
+        color: rgb(33, 33, 33);
+        backdrop-filter: blur(2px);
+        margin-right: 19px;
+        font-family: 'Roboto', sans-serif;
+        background-color: rgba(39, 37, 37, 0.21);
+        background-color: rgba(9, 51, 9, 0.057);
+    }
+    
+    table {
+        margin-right: 19px;
+    }
+    
+    th,
+    td {
+        width: 122px;
+        margin: 7px 0px;
+    }
+    
+    #money {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+    }
+    
+    #montex {
+        margin-left: 18px;
+    }
+    
+    .material-symbols-rounded {
+        padding-left: 4px;
+        color: rgb(72, 193, 72);
+        cursor: pointer;
+    }
+    
+    tr {
+        display: flex;
+        align-items: center;
+    }
+    
+    .content {
+        margin-top: 12px;
+    }
+    
+    .col-4 {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+    #upp {
+        color: greenyellow;
+    }
+    
+    #dwn {
+        color: red;
+    }
+    
+    .cardd img {
+        width: 12rem;
+        height: 12rem;
+        margin-right: 10px;
+        margin-bottom: 6px;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .cardd {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        flex-direction: column;
+        margin: 5px 5px;
+        border: 1px solid rgb(240, 62, 62);
+        padding: 0px 0px;
+    }
+    
+    .cad {
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+    }
+    
+    section {
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .cad p {
+        width: 13rem;
+        height: 12rem;
+        overflow: clip;
+        word-break: break-all;
+    }
+    
+    .cardd h3 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+    
+    #carddicon {
+        margin-right: 15px;
+        color: green;
+    }
+    
+    .imgspan {
+        margin-bottom: 20px;
+    }
+    
+    #pph {
+        width: 99%;
+        word-break: break-all;
+        text-align: left;
+        word-wrap: break-word;
+    }
+    
+    .nonimg {
+        margin-top: -11px;
+    }
+    
+    .container-xxl h2 {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 6px;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .col-12 {
+        width: 100%;
+        height: 21rem;
+        background-color: rgb(29, 29, 29);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 14px auto;
+    }
+    
+    .videos img {
+        width: 16rem;
+        height: 16rem;
+    }
+    
+    .vidcard {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        text-overflow: clip;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    .vidcard p {
+        position: absolute;
+        top: 11.5rem;
+        overflow: hidden;
+        text-overflow: clip;
+        word-wrap: break-word;
+        word-break: break-all;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(5px);
+        width: 100%;
+        font-weight: 550;
+        color: white;
+    }
+    
+    .vimg {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+        margin-right: 15px;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .videos {
+        margin: auto 5px;
+    }
+    
+    #viddicon {
+        color: rgb(255, 255, 255);
+        margin-right: 9px;
+    }
+    
+    .menubar {
+        width: 100%;
+        margin: 10px 0px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 14px auto;
+        background-color: rgba(0, 0, 0, 0.866);
+    }
+    
+    .menubar ul {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    ul #icon {
+        color: white;
+        cursor: pointer;
+    }
+    
+    .menubar li {
+        color: rgb(255, 255, 255);
+        display: flex;
+        margin: 5px 21px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .row .col-4 {
+        justify-content: center;
+    }
+    
+    .post {
+        width: 80%;
+        height: 24rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 7px;
+        border: 1px solid green;
+        margin-bottom: 9px;
+        cursor: pointer;
+    }
+    
+    .post .posthead {
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 3px auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #posticon {
+        margin-right: 9px;
+        color: black;
+    }
+    
+    .post img {
+        width: 100%;
+        height: 17rem;
+        display: flex;
+    }
+    
+    .post .txtfooter {
+        display: flex;
+        width: 100%;
+        height: 4rem;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        word-break: break-all;
+        white-space: pre-wrap;
+    }
+    
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
