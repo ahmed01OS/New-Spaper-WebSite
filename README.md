@@ -1,1 +1,1 @@
-# New-Spaper-WebSite
+It is a news site that was built from scratch and contains four sections, the first section: the main head of the sections with a background, logo and site name, the second section: news in the form of a box that includes the profile name of the news publisher and a picture of the news with news without a picture, the third section : News videos, the fourth section: a menu with categories of fields and a post that includes news from publishers that the person follows
